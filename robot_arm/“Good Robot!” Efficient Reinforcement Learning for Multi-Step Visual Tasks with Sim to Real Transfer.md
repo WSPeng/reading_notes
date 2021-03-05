@@ -12,9 +12,9 @@ a simplifying assumption equating sensor observations and state.
 
 #### Reward shaping
 
-**base reward**: weight * indicator function
+**base reward**: weight * indicator function indicate the action is failed or not 
 
-**situation removal reward**: new indicator function indicate the action is failed or not * base reward
+**situation removal reward**: new indicator function indicates that the “task progress function” increases. * base reward
 
 **progress reward**: proportional progress * SR reward
 
